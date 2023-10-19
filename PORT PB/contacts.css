@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2a0c84;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #0984bd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+p a {
+    text-decoration: none;
+    color: #720848;
+    transition: color 0.2s;
+}
+
+p a:hover {
+    color: #005bb5;
+}

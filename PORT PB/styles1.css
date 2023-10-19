@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2273ad;
+}
+
+header {
+    background-color: #1bc3e9;
+    color: #4d11cf;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.skill {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #5919c1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.skill img {
+    width: 100px;
+    height: 100px;
+}
+
+.skill h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
